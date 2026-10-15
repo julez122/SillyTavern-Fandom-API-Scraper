@@ -160,7 +160,7 @@ async function performScrape(
 ): Promise<Page[]> {
     console.log(chalk.blue(MODULE_NAME), `Target API: ${apiUrl}`);
     console.log(
-        chalk.gray(MODULE_NAME),
+        chalk.blue(MODULE_NAME),
         `Mode: Concurrency=${config.concurrency}, Delay=${config.minDelay}-${config.maxDelay}ms, FilterLangs=${config.autoFilterLangs}`,
     );
 
@@ -325,7 +325,7 @@ async function performScrape(
             const logStep = config.concurrency > 10 ? 200 : 20;
             if (completed % logStep === 0 || completed === allPages.length) {
                 console.log(
-                    chalk.gray(MODULE_NAME),
+                    chalk.blue(MODULE_NAME),
                     `Progress: ${completed}/${allPages.length} | Scraped: ${results.length}`,
                 );
             }
@@ -419,11 +419,11 @@ export async function init(router: Router): Promise<void> {
         }
     });
 
-    console.log(chalk.green(MODULE_NAME), 'Plugin successfully loaded!');
+    console.log(chalk.blue('Fandom Scraper Plugin successfully loaded!'));
 }
 
 export async function exit(): Promise<void> {
-    console.log(chalk.yellow(MODULE_NAME), 'Plugin exited');
+    console.log(chalk.blue('Fandom Scraper Plugin successfully unloaded!'));
 }
 
 export const info: PluginInfo = {

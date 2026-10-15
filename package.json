@@ -12,14 +12,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Nidelon/SillyTavern-Fandom-API-Scraper.git"
+        "url": "git+https://github.com/julez122/SillyTavern-Fandom-API-Scraper.git"
     },
-    "author": "Cohee1207, Nidelon",
+    "author": "Cohee1207, Nidelon, julez122",
     "license": "AGPL-3.0-or-later",
     "bugs": {
-        "url": "https://github.com/Nidelon/SillyTavern-Fandom-API-Scraper.git/issues"
+        "url": "https://github.com/julez122/SillyTavern-Fandom-API-Scraper.git/issues"
     },
-    "homepage": "https://github.com/Nidelon/SillyTavern-Fandom-API-Scraper.git#readme",
+    "homepage": "https://github.com/julez122/SillyTavern-Fandom-API-Scraper.git#readme",
     "devDependencies": {
         "@types/express": "^4.17.21",
         "@types/node": "^20.11.0",

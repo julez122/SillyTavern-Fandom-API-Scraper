@@ -18,7 +18,7 @@ A SillyTavern server plugin designed to dump an entire MediaWiki/Fandom Wiki int
 
     ```bash
     cd plugins
-    git clone https://github.com/Nidelon/SillyTavern-Fandom-API-Scraper
+    git clone https://github.com/julez122/SillyTavern-Fandom-API-Scraper
     ```
 
 3. **Install Dependencies and Build**
@@ -38,3 +38,7 @@ This plugin is maintained separately so I can update it more easily. Using both 
 ## License
 
 AGPLv3
+
+## Fork Changelog
+
+- Changed color of the `console.log`'s output to look more distinct from SillyTaverns other `console.log`s.
