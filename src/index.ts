@@ -419,11 +419,11 @@ export async function init(router: Router): Promise<void> {
         }
     });
 
-    console.log(chalk.blue('Fandom Scraper Plugin successfully loaded!'));
+    console.log(chalk.yellow('Fandom Scraper Plugin'), chalk.blue('successfully loaded!'));
 }
 
 export async function exit(): Promise<void> {
-    console.log(chalk.blue('Fandom Scraper Plugin successfully unloaded!'));
+    console.log(chalk.yellow('Fandom Scraper Plugin'), chalk.blue('successfully unloaded!'));
 }
 
 export const info: PluginInfo = {
